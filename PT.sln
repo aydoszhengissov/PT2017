@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarManager", "FarManager\Fa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complex_serialization", "Complex_serialization\Complex_serialization.csproj", "{D70B7FDF-D7D1-448E-90E0-F97F1A42B3B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{9CFACF92-6CB9-47C4-870A-88D95259A78A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D70B7FDF-D7D1-448E-90E0-F97F1A42B3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D70B7FDF-D7D1-448E-90E0-F97F1A42B3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D70B7FDF-D7D1-448E-90E0-F97F1A42B3B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CFACF92-6CB9-47C4-870A-88D95259A78A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CFACF92-6CB9-47C4-870A-88D95259A78A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CFACF92-6CB9-47C4-870A-88D95259A78A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CFACF92-6CB9-47C4-870A-88D95259A78A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
