@@ -45,6 +45,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Drawer.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -53,6 +60,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -61,6 +74,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -74,6 +88,23 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icons\Color Dropper-30.png" />
+    <Content Include="Icons\Crop-30.png" />
+    <Content Include="Icons\Ellipse Stroked-30.png" />
+    <Content Include="Icons\Erase Filled-30.png" />
+    <Content Include="Icons\Fill Color-30.png" />
+    <Content Include="Icons\Line Width-30.png" />
+    <Content Include="Icons\Line-30.png" />
+    <Content Include="Icons\pen.png" />
+    <Content Include="Icons\Polygon-30.png" />
+    <Content Include="Icons\Rectangle Stroked-30.png" />
+    <Content Include="Icons\RGB Circle 1-30.png" />
+    <Content Include="Icons\Triangle-30.png" />
+    <Content Include="Rectangle Stroked-30.png" />
+    <Content Include="RGB Circle 1-30.png" />
+    <Content Include="Triangle-30.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
