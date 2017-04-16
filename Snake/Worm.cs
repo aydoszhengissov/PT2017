@@ -21,7 +21,6 @@ namespace Snake
 
         public void Generate(Wall wall)
         {
-
             Point newWorm = new Point(new Random().Next() % 28, new Random().Next() % 28);
             WormLocation = newWorm;
 
