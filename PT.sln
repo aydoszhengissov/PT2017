@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paint", "Paint\Paint.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake", "Snake\Snake.csproj", "{D3F0717D-AD1F-40E5-8501-34ED292FFABF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarManager", "FarManager\FarManager.csproj", "{2F36AC0B-1BB7-4D54-A5A6-B365A5D7CCBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complex_serialization", "Complex_serialization\Complex_serialization.csproj", "{D70B7FDF-D7D1-448E-90E0-F97F1A42B3B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{D3F0717D-AD1F-40E5-8501-34ED292FFABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3F0717D-AD1F-40E5-8501-34ED292FFABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3F0717D-AD1F-40E5-8501-34ED292FFABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F36AC0B-1BB7-4D54-A5A6-B365A5D7CCBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F36AC0B-1BB7-4D54-A5A6-B365A5D7CCBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F36AC0B-1BB7-4D54-A5A6-B365A5D7CCBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F36AC0B-1BB7-4D54-A5A6-B365A5D7CCBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D70B7FDF-D7D1-448E-90E0-F97F1A42B3B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D70B7FDF-D7D1-448E-90E0-F97F1A42B3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D70B7FDF-D7D1-448E-90E0-F97F1A42B3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D70B7FDF-D7D1-448E-90E0-F97F1A42B3B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
