@@ -63,7 +63,7 @@ namespace FarManager
                             sr.Close();
                             while (Console.ReadKey(true).Key != ConsoleKey.Escape)
                             {
-                                // do nothing until escape
+                                // do nothing until escape!
                             }
                         }
                     }
