@@ -56,7 +56,7 @@ namespace Complex_serialization
             FileStream fs = new FileStream("complex.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite);
             Complex c = new Complex();
             c.A = 5;
-            c.B = 7;
+            c.B = 9;
             XmlSerializer xs = new XmlSerializer(typeof(Complex));
             xs.Serialize(fs, c);
             fs.Close();
