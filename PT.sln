@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PT", "PT\PT.csproj", "{8656
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paint", "Paint\Paint.csproj", "{02D9ED4D-66ED-4791-96C1-8E007531C019}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake", "Snake\Snake.csproj", "{D3F0717D-AD1F-40E5-8501-34ED292FFABF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{02D9ED4D-66ED-4791-96C1-8E007531C019}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02D9ED4D-66ED-4791-96C1-8E007531C019}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02D9ED4D-66ED-4791-96C1-8E007531C019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F0717D-AD1F-40E5-8501-34ED292FFABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F0717D-AD1F-40E5-8501-34ED292FFABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F0717D-AD1F-40E5-8501-34ED292FFABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F0717D-AD1F-40E5-8501-34ED292FFABF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
