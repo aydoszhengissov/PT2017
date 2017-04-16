@@ -102,9 +102,6 @@
     <Content Include="Icons\Rectangle Stroked-30.png" />
     <Content Include="Icons\RGB Circle 1-30.png" />
     <Content Include="Icons\Triangle-30.png" />
-    <Content Include="Rectangle Stroked-30.png" />
-    <Content Include="RGB Circle 1-30.png" />
-    <Content Include="Triangle-30.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
