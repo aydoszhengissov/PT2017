@@ -30,7 +30,6 @@ namespace Calculator
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Calculator));
             this.button30 = new System.Windows.Forms.Button();
             this.display = new System.Windows.Forms.TextBox();
             this.button29 = new System.Windows.Forms.Button();
@@ -74,7 +73,6 @@ namespace Calculator
             this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button30.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button30.ForeColor = System.Drawing.Color.Black;
-            this.button30.Image = ((System.Drawing.Image)(resources.GetObject("button30.Image")));
             this.button30.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button30.Location = new System.Drawing.Point(220, 133);
             this.button30.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
