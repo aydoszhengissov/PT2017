@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complex_serialization", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{9CFACF92-6CB9-47C4-870A-88D95259A78A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook2", "..\PhoneBook\PhoneBook2\PhoneBook2.csproj", "{C7E93CCD-045D-4257-B5DD-8B80F1C5A6EF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook2", "PhoneBook2\PhoneBook2.csproj", "{C7E93CCD-045D-4257-B5DD-8B80F1C5A6EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
