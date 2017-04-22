@@ -23,7 +23,7 @@ namespace FarManager
         static void Main(string[] args)
         {
             int cursor = 0;
-            DirectoryInfo directory = new DirectoryInfo(@"C:\Users\admin12\Desktop");
+            DirectoryInfo directory = new DirectoryInfo(@"C:\Users\admin12\Documents\FIFA 15");
             while (true)
             {
                 Console.Clear();

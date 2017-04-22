@@ -43,11 +43,9 @@ namespace Paint
             pen = new Pen(color, thickness);
             brush = new SolidBrush(Color.Blue);
             raser = new Pen(Color.White, 5);
-
             used = new bool[picture.Width + 1, picture.Height + 1];
             g = Graphics.FromImage(bmp);
             picture.Image = bmp;
-
             shape = Shape.Pencil;
             picture.Paint += Picture_Paint;
         }
@@ -76,11 +74,8 @@ namespace Paint
             {
                 if (shape == Drawer.Shape.Crop)
                 {
-                    Pen cropPen = new Pen(Color.Black, 1);
-                    g.DrawPath(cropPen, gp);
                     crop(cropRect);
                     picture.Refresh();
-
                 }
                 else
                 {
@@ -110,11 +105,9 @@ namespace Paint
                     gp = new GraphicsPath();
                     gp.AddLine(prev, cur);
                     break;
-
                 case Shape.Eraser:
                     g.DrawLine(raser, prev, cur);
                     prev = cur;
-
                     break;
                 case Shape.Triangle:
                     gp = new GraphicsPath();
@@ -148,7 +141,6 @@ namespace Paint
                                 rect,
                                 GraphicsUnit.Pixel);
             picture.Image = bmp2;
-            picture.Refresh();
         }
 
         public void fill(Point cur)

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complex_serialization", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{9CFACF92-6CB9-47C4-870A-88D95259A78A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook2", "..\PhoneBook\PhoneBook2\PhoneBook2.csproj", "{C7E93CCD-045D-4257-B5DD-8B80F1C5A6EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{9CFACF92-6CB9-47C4-870A-88D95259A78A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CFACF92-6CB9-47C4-870A-88D95259A78A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CFACF92-6CB9-47C4-870A-88D95259A78A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E93CCD-045D-4257-B5DD-8B80F1C5A6EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E93CCD-045D-4257-B5DD-8B80F1C5A6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E93CCD-045D-4257-B5DD-8B80F1C5A6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E93CCD-045D-4257-B5DD-8B80F1C5A6EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
