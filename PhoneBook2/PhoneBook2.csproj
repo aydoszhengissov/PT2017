@@ -67,6 +67,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -81,6 +82,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icons\Back Filled-30.png" />
+    <Content Include="Icons\Broom-30.png" />
+    <Content Include="Icons\Delete-30.png" />
+    <Content Include="Icons\Forward Filled-30.png" />
+    <Content Include="Icons\Restart Filled-30 %281%29.png" />
+    <Content Include="Icons\Restart Filled-30.png" />
+    <Content Include="Icons\Sort Filled-30.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
