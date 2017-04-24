@@ -106,7 +106,7 @@ namespace PhoneBook2
         private void button1_Click(object sender, EventArgs e)
         {
             mySqlDataAdapter.Update(ds.Tables[1]);
-            //ShowDB((ds.Tables["allrows"].Rows.Count) / pgSize + 1);
+            ShowDB(curPage);
         }
 
         private void txtSearch_TextChanged(object sender, EventArgs e)
@@ -159,6 +159,8 @@ namespace PhoneBook2
         private void button6_Click(object sender, EventArgs e)
         {
             curPage = 1;
+            pgSize = 15;
+            textBox1.Clear();
             sort = false;
             ascDate = false;
             ShowDB(curPage);
@@ -218,6 +220,21 @@ namespace PhoneBook2
         private void button6_Paint(object sender, PaintEventArgs e)
         {
             button6.FlatAppearance.BorderSize = 0;
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if(textBox1.Text == "")
+            {
+                pgSize = 15;
+                curPage = 1;
+                ShowDB(curPage);
+            }
+            else
+            {
+                pgSize = Int32.Parse(textBox1.Text);
+                ShowDB(curPage);
+            }
         }
     }
 }
