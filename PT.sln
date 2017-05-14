@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook2", "PhoneBook2\Ph
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate", "Delegate\Delegate.csproj", "{9402E494-37E4-4AD4-965A-D7876E2D25D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalogClock", "AnalogClock\AnalogClock.csproj", "{AB660F10-874C-496D-8D59-8D78EC47CE33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{9402E494-37E4-4AD4-965A-D7876E2D25D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9402E494-37E4-4AD4-965A-D7876E2D25D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9402E494-37E4-4AD4-965A-D7876E2D25D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB660F10-874C-496D-8D59-8D78EC47CE33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB660F10-874C-496D-8D59-8D78EC47CE33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB660F10-874C-496D-8D59-8D78EC47CE33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB660F10-874C-496D-8D59-8D78EC47CE33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
